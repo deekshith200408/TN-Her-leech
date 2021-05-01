@@ -50,7 +50,7 @@ class Progress:
             [
                 [
                     InlineKeyboardButton(
-                        "✘ Cancel ✘",
+                        "✘ Cancel ⛔",
                         callback_data=(
                             f"gUPcancel/{chat_id}/{mes_id}/{from_user}"
                         ).encode("UTF-8"),
@@ -89,7 +89,7 @@ class Progress:
                 round(percentage, 2),
             )
 
-            tmp = progress + "\n<b>├ Uploaded : {0}</b>\n<b>├ Total : {1}</b>\n<b>├ Speed : {2}</b>\n<b>├ ETA : {3}</b>\n<b>│</b>\n<b>╰── ⌊ 💠 @TamilMoviesML 💠 ⌉</b>".format(
+            tmp = progress + "\n<b>├ Uploaded : {0}</b>\n<b>├ Total : {1}</b>\n<b>├ Speed : {2}</b>\n<b>├ ETA : {3}</b>\n<b>│</b>\n<b>╰── ⌊ 📺 @TN57_BotZ 📡 ⌉</b>".format(
                 humanbytes(current),
                 humanbytes(total),
                 humanbytes(speed),
