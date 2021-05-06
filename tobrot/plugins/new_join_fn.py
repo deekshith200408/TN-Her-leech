@@ -19,12 +19,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("Hello 👾 !\nThis Is A Telegram Leech Bot 🧲\nClick Below To Know How To Use Me 📄\n Developer 👨🏻‍💻 : @ML_BotUpdates", quote=True)
+    # await message.reply_text("Hello 👾 !\nThis Is A Telegram Leech Bot 🧲\nClick Below To Know How To Use Me 📄\n Developer 👨🏻‍💻 : @FilmClubGroup", quote=True)
     # channel_id = str(AUTH_CHANNEL)[4:]
     # message_id = 99
     # display the /help
 
     await message.reply_text(
-        """Hello 👾 !\nThis Is A Telegram Leech Bot 🧲\nClick Below To Know How To Use Me 📄\n Developer 👨🏻‍💻 : @ML_BotUpdates""",
+        """Hello 👾 !\nThis Is A Telegram Leech Bot 🧲\nClick Below To Know How To Use Me 📄\n Developer 👨🏻‍💻 : @FilmClubGroup""",
         disable_web_page_preview=True,
     )
